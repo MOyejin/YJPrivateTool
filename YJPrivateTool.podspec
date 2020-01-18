@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name         = "YJPrivateTool"
-    s.version      = "0.0.11"
+    s.version      = "0.0.12"
     s.summary      = "YJPrivateTool of iOS"
     s.homepage     = "https://github.com/MOyejin/YJPrivateTool"
     s.license      = "MIT"

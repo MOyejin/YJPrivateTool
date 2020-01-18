@@ -7,6 +7,7 @@
 //
 
 #import "YJPresentationController.h"
+#import "UIViewController+YJViewController.h"
 
 @interface YJPresentationController ()
 
