@@ -18,7 +18,7 @@
 #import "NSAttributedString+YJAttributedString.h"
 
 #pragma mark - NSArray+YJArray
-//#import "NSArray+YJArray.h"
+#import "NSArray+YJArray.h"
 
 #pragma mark - NSMutableArray+YJMutableArray
 #import "NSMutableArray+YJMutableArray.h"

@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name         = "YJPrivateTool"
-    s.version      = "0.0.6"
+    s.version      = "0.0.9"
     s.summary      = "YJPrivateTool of iOS"
     s.homepage     = "https://github.com/MOyejin/YJPrivateTool"
     s.license      = "MIT"
@@ -9,10 +9,11 @@ Pod::Spec.new do |s|
     s.platform     = :ios
     s.source       = { :git => "https://github.com/MOyejin/YJPrivateTool.git", :tag => "#{s.version}" }
     s.source_files = "YJFoundation", "YJFoundation/**/*.{h,m}"
+    s.source_files = "YJUIKit", "YJUIKit/**/*.{h,m}"
     s.frameworks   = 'UIKit', 'Foundation'
     s.requires_arc = true
 
-#s.dependency "MJRefresh"
-#s.dependency "Masonry"
+    s.dependency "MJRefresh"
+    s.dependency "Masonry"
 
 end
