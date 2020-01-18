@@ -7,7 +7,7 @@
 //
 
 #import "UINavigationController+YJNavigationController.h"
-#import "NSArray+YJArray.h"
+//#import "NSArray+YJArray.h"
 
 @implementation UINavigationController (YJNavigationController)
 
@@ -28,12 +28,12 @@
 
 - (NSUInteger)yj_getIndexWithViewController:(UIViewController *)viewController {
     
-    return [self.viewControllers yj_safeIndexOfObject:viewController];
+    return 0;//[self.viewControllers yj_safeIndexOfObject:viewController];
 }
 
 - (UIViewController *)yj_getFirstViewController {
     
-    return [self.viewControllers yj_safeObjectAtIndex:0];
+    return nil;//[self.viewControllers yj_safeObjectAtIndex:0];
 }
 
 - (NSArray *)yj_popToViewControllerWithYJassName:(NSString *)YJassName
