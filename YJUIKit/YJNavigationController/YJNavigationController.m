@@ -7,7 +7,6 @@
 //
 
 #import "YJNavigationController.h"
-#import "NSArray+YJArray.h"
 
 @interface YJNavigationController ()
 
