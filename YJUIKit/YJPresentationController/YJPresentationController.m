@@ -28,13 +28,13 @@
     
     if (self) {
         
-//        BOOL yj_isHasPresentationViewHeight = (presentedViewController.yj_presentationViewHeight == 0);
-//
-//        self.yj_backgroundColor            = [[UIColor blackColor] colorWithAlphaComponent:0.5];
-//        self.yj_animationDuration          = 0.5f;
-//        self.yj_presentationViewStyle      = YJPresentationViewStyleNormal;
-//        self.yj_presentationViewHeight     = yj_isHasPresentationViewHeight ? [UIScreen mainScreen].bounds.size.height : presentedViewController.yj_presentationViewHeight;
-//        self.yj_isNeedTapGestureRecognizer = YES;
+        BOOL yj_isHasPresentationViewHeight = (presentedViewController.yj_presentationViewHeight == 0);
+
+        self.yj_backgroundColor            = [[UIColor blackColor] colorWithAlphaComponent:0.5];
+        self.yj_animationDuration          = 0.5f;
+        self.yj_presentationViewStyle      = YJPresentationViewStyleNormal;
+        self.yj_presentationViewHeight     = yj_isHasPresentationViewHeight ? [UIScreen mainScreen].bounds.size.height : presentedViewController.yj_presentationViewHeight;
+        self.yj_isNeedTapGestureRecognizer = YES;
     }
     
     return self;

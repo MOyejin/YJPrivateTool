@@ -14,7 +14,7 @@ static void *AlertControllerKey = &AlertControllerKey;
 
 @implementation UIViewController (YJViewController)
 
-- (void)setyj_presentationViewHeight:(CGFloat)yj_presentationViewHeight {
+- (void)setYj_presentationViewHeight:(CGFloat)yj_presentationViewHeight {
     objc_setAssociatedObject(self, @"height", @(yj_presentationViewHeight), OBJC_ASSOCIATION_ASSIGN);
 }
 
@@ -43,7 +43,7 @@ static void *AlertControllerKey = &AlertControllerKey;
 }
 
 #pragma mark - AlertController
-- (void)setyj_alertController:(UIAlertController *)yj_alertController {
+- (void)setYj_alertController:(UIAlertController *)yj_alertController {
     
     objc_setAssociatedObject(self, AlertControllerKey, yj_alertController, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }

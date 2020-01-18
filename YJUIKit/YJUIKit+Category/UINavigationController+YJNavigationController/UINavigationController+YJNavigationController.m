@@ -9,7 +9,6 @@
 #import "UINavigationController+YJNavigationController.h"
 #import "NSArray+YJArray.h"
 
-
 @implementation UINavigationController (YJNavigationController)
 
 - (UIViewController *)yj_findViewControllerWithYJassName:(NSString *)YJassName {
